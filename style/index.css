@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost&family=Noto+Sans&family=PT+Serif&family=Poppins:wght@300;400&family=Roboto+Mono&display=swap");
+
+/*
+All importing fonts of google.
+
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Jost', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'PT Serif', serif;
+font-family: 'Roboto Mono', monospace;
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.todo-list {
+  background-color: rgba(221, 122, 0, 0.699);
+  padding: 4vh 4vh;
+  border-radius: 10px;
+}
+#heading {
+  color: rgb(190, 137, 0);
+  font-weight: bolder;
+}
+#submit-task,
+#todo-input,
+#Edit-task {
+  outline: none;
+  margin-top: 30px;
+  border: 3px solid #be77209c;
+  padding: 6px 10px;
+}
+
+#todo-input {
+  border-right: none;
+  border-radius: 10px 0px 0px 10px;
+}
+
+#submit-task {
+  position: relative;
+  left: -8px;
+  color: white;
+  font-weight: 600;
+  border-radius: 0px 10px 10px 0px;
+  background-color: darkorange;
+  color: white;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.74);
+}
+#Edit-task {
+  position: relative;
+  left: -8px;
+  font-weight: 600;
+  border-radius: 0px 10px 10px 0px;
+  background-color: darkorange;
+  color: white;
+  display: none;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.74);
+}
+/* #Edit-task, #submit-task {
+
+} */
+.wrapper {
+  border: 3px solid rgb(167, 92, 0);
+  border-radius: 8px;
+  margin: 5px 0px;
+  padding: 6px 12px;
+  background-color: rgba(255, 152, 25, 0.699);
+  transform: scale(1);
+  cursor: pointer;
+}
+.wrapper:hover {
+  transform: scale(1.01);
+  transition: all .2s linear;
+}
+
+#todo-title {
+  font-weight: 600;
+  color: #000;
+}
+
+.material-symbols-outlined {
+  cursor: pointer;
+  color: #000000b4;
+  transition: all 0.3s linear;
+  transform: scale(1);
+}
+
+.material-symbols-outlined:hover {
+  color: #000;
+  transform: scale(1.1);
+}
